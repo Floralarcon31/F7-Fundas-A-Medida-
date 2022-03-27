@@ -163,8 +163,56 @@ nav ul ul li a{
     }
 }
  */
+/*=============CONTACTO===================*/
+.banner h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: "Meie Script", cursive;
+    font-size: 3.5rem;
+  }
+.miniText{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
 
-
+.titleContacto{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3656B1;
+}
+.horarios p{
+    line-height: 9px;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+.direccion{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.redesSociales{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.redesSociales:hover{
+    color: #3656B1;
+}
+.icon-facebook,
+.icon-whatsapp,
+.icon-location,
+.icon-instagram{
+     font-size: 23px;
+     color: #3656B1;
+}
+.container{
+    margin-bottom: 20px;
+}
 /*=======FOOTER==========*/
 /*===LAYOUT===*/
 .bd-grid{
