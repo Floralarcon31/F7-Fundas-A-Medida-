@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sora:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -90,10 +90,28 @@ ul {
     padding: 0 5rem;
     height: 300px;
 }
+.card-body{
+    margin-top: 0px;
+}
+ .btn-productoDestacado{
+    text-align: right;
+    text-decoration: none;
+}
+.btn-productoDestacado button{
+    color: white;
+    background: #7f0000;
+    border-radius: 5px;
+    border-color: #7f0000;
+    padding: 3px 20px;
+    font-size: 13px;
+    position: relative;
+    margin-top: 0px;
+}
 
 .img-card-home {
     padding: 1rem;
-    min-height: 200px;
+    min-height: 180px;
+    
 }
 
 .text-carrusel-opiniones {
@@ -116,8 +134,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
+    font-family: 'Sora', sans-serif;
     font-size: 22px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .texto1-como-comprar {
@@ -147,8 +170,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
+    font-family: 'Sora', sans-serif;
     font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-fundasMedida {
@@ -262,8 +290,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
+    font-family: 'Sora', sans-serif;
     font-size: 20px;
+    background: linear-gradient(90deg, rgba(29,45,91,1) 12%, rgba(127,0,0,1) 26%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-cubrevolantes {
@@ -342,28 +375,21 @@ ul {
 }
 /*============ACCESORIOS===========*/
 .titleH1-accesorios{
-    color: white;
     position: absolute;
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-size: 20px;
-    mix-blend-mode: multiply;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
-.titleH1-accesorios:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background:linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
-    mix-blend-mode: screen;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 .main-accesorios {
     padding: 2rem 1rem;
 }
@@ -447,8 +473,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
-    font-size: 1.6rem;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .titleNuestraEmp{
@@ -486,8 +517,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
-    font-size: 1.6rem;
+    font-family: 'Sora', sans-serif;
+    font-size: 22px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .titleCatalogo{
     font-size: 18px;
@@ -529,6 +565,23 @@ ul {
     text-align: center;
     
 }
+.containerImgCatalogo a{
+    text-decoration: none;
+}
+.containerImgCatalogo  button{
+    font-size: 14px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #1d2d5b;
+    color: white;
+    padding: 4px 40px ;
+    border-radius: 5px;
+    border-color: #1d2d5b;
+
+}
 .containerImgCatalogo .titlecat1{
     position: absolute;
     top: 48%;
@@ -547,8 +600,13 @@ ul {
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
-    font-family: "Meie Script", cursive;
-    font-size: 2rem;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .miniText{
     margin-top: 15px;
