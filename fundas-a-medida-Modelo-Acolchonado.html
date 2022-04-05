@@ -54,18 +54,75 @@
         </div>
     </nav>
     <main>
-        <!--CARRUSEL-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="texto-catalogo-modeloAcolchonado">
+            <p> CATÁLOGO > Fundas a medida > Modelo Acolchonado</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-dark carrusel-modeloAcolchonado" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/carrusel1.png" class="d-block w-100" alt="BANNER 1">
+                    <div class="container-agrandar-modal">
+                        <img src="img/imgEj.png" class="d-block w-100 img-carrusel-modeloAcolchonado" alt="...">
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal1" class="boton-modal">
+                            <img class="icono-agrandar-img" src="img/redimensionar.png" alt="">
+                        </button>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/Modelo acolchado 4.jpg" class="imagen-modal" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrusel2.png" class="d-block w-100" alt="banner 2">
+                    <div class="container-agrandar-modal">
+                        <img src="img/imgEj.png" class="d-block w-100 img-carrusel-modeloAcolchonado" alt="...">
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2" class="boton-modal">
+                            <img class="icono-agrandar-img" src="img/redimensionar.png" alt="">
+                        </button>
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/Modelo acolchado 4.jpg" class="imagen-modal" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-agrandar-modal">
+                        <img src="img/imgEj.png" class="d-block w-100 img-carrusel-modeloAcolchonado" alt="...">
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal3" class="boton-modal">
+                            <img class="icono-agrandar-img" src="img/redimensionar.png" alt="">
+                        </button>
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="img/Modelo acolchado 4.jpg" class="imagen-modal" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -77,79 +134,15 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!--Seccion somos f7-->
-        <section>
-            <div class="container-h1">
-                <h1 class="title-h1"><strong>SOMOS F7</strong></h1>
-                <p class="introduction-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugiat est eius consequatur! Repellendus temporibus tenetur ipsam commodi delectus, doloremque laboriosam, illo saepe sint consequuntur et laborum voluptatibus, quam dolorem?</p>
-            </div>
-            <div>
-                <h2 class="title-productosDestacados">PRODUCTOS DESTACADOS</h2>
-            </div>
-        <!--CARRUSEL PRODUCTOS DESTACADOS-->
-            <div id="carouselExampleIndicators1" class="carousel slide carousel-dark carruselProductosDestacados-home" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="col cardsProductos">
-                            <div class="card h-100">
-                                <img src="img/imgEj.png" class="card-img-top img-card-home" alt="">
-                                <div class="card-body">
-                                    <p class="card-title">Funda a medida modelo acolchonado</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col cardsProductos">
-                            <div class="card h-100">
-                                <img src="img/imgEj.png" class="card-img-top img-card-home" alt="">
-                                <div class="card-body">
-                                    <p class="card-title">Cubrevolantes </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2 class="title-opiniones-clientes">OPINIONES DE NUESTROS CLIENTES</h2>
-            </div>
-        <!--CARRUSEL OPINIONES PUBLICO-->
-            <div id="carouselExampleIndicators2" class="carousel slide carousel-dark carruselProductosDestacados-home" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p class="text-carrusel-opiniones">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas facilis commodi quia voluptatem nisi sed et, temporibus deserunt, itaque doloribus sint eum laborum in animi nam accusamus distinctio quod obcaecati" <br> <strong>CLAUDIO</strong> </p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="text-carrusel-opiniones">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque pariatur impedit voluptatum, blanditiis nihil tenetur. Velit similique, officia reiciendis odit inventore repellendus vitae eveniet fugit delectus rerum recusandae quam. <br><strong>MARCELA</strong></p>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <div>
-                <p class="text-dejanos-opinion">Dejanos tu opinión! <a href="https://www.facebook.com/FUNDASAMEDIDA.F7" target="blank" class="anchorOpiniones">CLICK AQUÍ</a></p>
-            </div>
-        </section>
+        <div class="container-text-modeloAcolchonado">
+            <h1>Funda a medida modelo Acolchonado</h1>
+            <p class="precio-modeloAcolchonado">Desde ARS 15.000</p>
+            <p>Descripción: <br>Funda a medida para butacas con diseño abastonado y vivo en variedad de colores a elección. <br>Se realiza en cuero automotor reforzado con una lamina de goma espuma de alta densidad con 10 mm de espesor, dándole la comodidad necesaria a sus pasajeros y volviendo a su forma original luego. <br><br>Los colores disponibles son blanco, azul, gris, negro y rojo.
+                </p>
+        </div>
     </main>
 
-    <!--INICIO FOOTER-->
+<!--INICIO FOOTER-->
 
 <footer class="footer section">
     <div class="footer__container bd-grid">
