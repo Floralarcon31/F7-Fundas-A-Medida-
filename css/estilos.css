@@ -97,6 +97,8 @@ nav {
 
 .introduction-text {
     padding: 0 3rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
 }
 
 .title-productosDestacados, .title-opiniones-clientes  {
@@ -111,7 +113,7 @@ nav {
     margin-left: 50px;
 }
 .cardsProductos {
-    height: 300px;
+    height: 320px;
     width: 305px;
     margin-top: 10px;
    /* margin-left: 13%;*/
@@ -134,7 +136,7 @@ nav {
 
 .img-card-home {
     padding: 1rem;
-    min-height: 200px;
+    min-height: 220px;
 }
 
 .text-carrusel-opiniones {
@@ -870,6 +872,7 @@ footer
         padding: 2rem 12.5rem;
     }
     
+    
     .carruselProductosDestacados-home {
        /* padding: 0 12.5rem;*/
         margin: 2.5rem 0;
@@ -888,39 +891,47 @@ footer
         text-align: center;
     }
     .cardsProductos {
-        height: 350px;
-        width: 250px; 
-
+        height: 450px;
+        width: 350px; 
     }
-    
+    .card-title{
+        font-size: 17px;
+       /* margin-top: 0px;*/
+    }
     .img-card-home {
         padding: 1rem;
-       /* min-height: 250px;*/
+       min-height: 250px;
+      /* margin-bottom: 0%;*/
     }
+    
     .productosDestacadosDIV{
        margin-left: 0px;
     }
 
-.btn-productoDestacado{
-    text-align: right;
-    text-decoration: none;
-}
-.btn-productoDestacado button{
-    color: white;
-    background: #7f0000;
-    border-radius: 5px;
-    border-color: #7f0000;
-    padding: 3px 20px;
-    font-size: 13px;
-    position: relative;
-    margin-top: 0px;
-}
+    .btn-productoDestacado{
+        text-align: right;
+        text-decoration: none;
+    }
+    .btn-productoDestacado button{
+        color: white;
+        background: #7f0000;
+        border-radius: 5px;
+        border-color: #7f0000;
+        padding: 3px 20px;
+        font-size: 13px;
+        position: relative;
+        margin-top: 0px;
+    }
 
     .text-carrusel-opiniones {
         text-align: center;
         padding: 0 4rem;
     }
-    
+    .introduction-text {
+        padding: 0 4rem;
+        margin-top: 1.6rem;
+        font-size: 19px;
+    }
     .anchorOpiniones {
         text-decoration: none;
         color: #3656B1;
