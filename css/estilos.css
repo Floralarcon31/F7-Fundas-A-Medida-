@@ -163,13 +163,14 @@ nav {
     font-family: 'Sora', sans-serif;
     font-size: 22px;
     background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
     -webkit-text-stroke: 0.3px black;
     background-size: 300%;
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.imgComoComprar{
+.imgBanner{
     filter: invert(0.4);
     /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
     height: 120px;
@@ -212,18 +213,37 @@ nav {
     font-family: 'Sora', sans-serif;
     font-size: 20px;
     background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+     /*borde negro*/
+     -webkit-text-stroke: 0.3px black;
     background-size: 300%;
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.imgBannerFundas{
+    filter: invert(0.4);
+    /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
+    height: 120px;
+    /*bottom: -25px;  ajustar los valores para mover la imagen */
+}
+.linkCatalogo{
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.cardImgFundas{
+   height: 350px;
+    
+}
 .main-fundasMedida {
     padding: 2rem 1rem;
 }
-
+.texttoFundaMedida{
+    margin: 8px;
+}
 .card-fundasMedida {
-    margin: 2rem 0;
+
+    margin: 1.5rem 0;
+   
 }
 
 .title-card-fundasMedida { 
@@ -238,7 +258,13 @@ nav {
 .anchor-card-fundasMedida:focus {
     color: black;
 }
-
+.ImgDibujo{
+    width: 350px;
+    height: 310px;
+    margin-top: 20px;
+    border:solid 2px #3656B1;
+    margin: 15px;
+}
 /*=============FUNDAS MODELO LISO===========*/
 
 .catalogo-modeloLiso {
@@ -559,20 +585,22 @@ nav {
     font-family: 'Sora', sans-serif;
     font-size: 22px;
     background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
     background-size: 300%;
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .titleCatalogo{
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 25px;
 }
 .containerImgCatalogo{
     width: 340px;
-    height: 190px;
+    height: 180px;
     overflow: hidden;
     position: relative;
     margin: 5px auto;
@@ -581,8 +609,14 @@ nav {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin-bottom: 25px;
+   
 }
-
+.imgContainerCatalogo{
+    width: 100%;
+    height: 100%;
+    filter: invert(0.4);
+    
+}
 .containerImgCatalogo:hover{
     transform: scale(1.1);
     box-shadow: 13px 15px 37px black;
@@ -619,6 +653,11 @@ nav {
     padding: 4px 40px ;
     border-radius: 5px;
     border-color: #1d2d5b;
+
+}
+.containerImgCatalogo  button:hover{
+    background-color: #3656B1;
+    border-color: #3656B1;
 
 }
 .containerImgCatalogo .titlecat1{
@@ -767,7 +806,7 @@ footer ul{
 .botonWhatsapp {
     font-size: 3rem;
     position: fixed;
-    bottom: 15%;
+    bottom: 12%;
     right: 10px;
 }
 
