@@ -449,6 +449,8 @@ nav {
     font-family: 'Sora', sans-serif;
     font-size: 20px;
     background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+     /*borde negro*/
+     -webkit-text-stroke: 0.3px black;
     background-size: 300%;
     -webkit-background-clip: text;
             background-clip: text;
