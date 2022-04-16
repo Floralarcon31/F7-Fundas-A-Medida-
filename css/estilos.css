@@ -78,6 +78,8 @@ nav {
 
 .dropdown-open {
     background-color: #1C2D5B;
+    border: none;
+    
 }
 
 .dropdown-option1, .dropdown-option2, .dropdown-option3 {
@@ -175,6 +177,7 @@ nav {
     /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
     height: 120px;
     object-fit: cover;
+    width: 100%;
 }
 .texto1-como-comprar {
     margin-top: 1rem;
@@ -1014,4 +1017,94 @@ footer
     .text-dejanos-opinion {
         text-align: center;
     }
+    /* ===========COMO COMPRAR=========== */
+    .titleH1-como-comprar {
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-17%, -30%);  
+    }
+
+    .fondoDesktopComoComprar{
+        background: #eeebeb;
+        width: 600px;
+        display: block;
+        margin: auto;
+        height: 780px;
+    }
+    /* ===========CONTACTO=========== */
+    .banner h1 {
+        font-size: 40px;
+       
+    }
+
+    .fondoDesktopContacto{
+        background: #eeebeb;
+        width: 600px;
+        display: block;
+        margin: auto;
+        height: 760px;
+    }
+    .imgBanner{
+        width: 600px;
+        height: 210px;
+        display: block;
+        margin: auto;
+    }
+
+.miniText{
+   
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.titleContacto{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3656B1;
+}
+.horarios p{
+    line-height: 9px;
+    margin-left: 22px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.direccion{
+    text-decoration: none;
+}
+.direccion p{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 22px;
+    margin-right: 25px;
+}
+
+.redesSociales{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.redesSociales:hover{
+    color: #1d2d5b;
+}
+.container span{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container span:hover{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container{
+    margin-bottom: 30px;
+}
+.container .iconify.iconContact{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+
 }
