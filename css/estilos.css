@@ -539,7 +539,7 @@ nav {
 
 /*=============NUESTRA EMPRESA===========*/
 
-.bannerNuestEmpre h1{
+.titleH1-nuestra-empresa{
     color: white;
     position: absolute;
     top: 50%;
@@ -1028,7 +1028,7 @@ footer
 
     .fondoDesktopComoComprar{
         background: #eeebeb;
-        width: 600px;
+        width: 750px;
         display: block;
         margin: auto;
         height: 780px;
@@ -1041,13 +1041,13 @@ footer
 
     .fondoDesktopContacto{
         background: #eeebeb;
-        width: 600px;
+        width: 750px;
         display: block;
         margin: auto;
         height: 760px;
     }
     .imgBanner{
-        width: 600px;
+        width: 750px;
         height: 210px;
         display: block;
         margin: auto;
@@ -1106,5 +1106,31 @@ footer
     font-size: 23px;
     color: #1d2d5b;
 }
+    /* ===========NUESTRA EMPRESA=========== */
+    .titleH1-nuestra-empresa{
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-17%, -30%); 
+    }
+
+    .fondoDesktopNuestraEmpresa{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 920px;
+    }
+    .nuestrosValoresDesktop1 {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+       margin-left: 0px;
+       justify-content: space-around;
+     }
+     .textValores{
+         font-size: 15px;
+         margin: 10px;
+     }
 
 }
