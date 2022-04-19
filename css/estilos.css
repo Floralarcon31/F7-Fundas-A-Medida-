@@ -953,7 +953,7 @@ footer
     
     .carruselProductosDestacados-home {
        /* padding: 0 12.5rem;*/
-        margin: 2.5rem 0;
+        margin: 2rem 0;
        /* display: flex;
         justify-content: space-between;*/
         display: grid;
@@ -969,8 +969,8 @@ footer
         text-align: center;
     }
     .cardsProductos {
-        height: 450px;
-        width: 350px; 
+        height: 400px;
+        width: 300px; 
     }
     .card-title{
         font-size: 17px;
@@ -978,7 +978,8 @@ footer
     }
     .img-card-home {
         padding: 1rem;
-       min-height: 250px;
+        height: 270px;
+
       /* margin-bottom: 0%;*/
     }
     
@@ -1044,7 +1045,7 @@ footer
         width: 750px;
         display: block;
         margin: auto;
-        height: 760px;
+        height: 780px;
     }
     .imgBanner{
         width: 750px;
@@ -1055,7 +1056,7 @@ footer
 
 .miniText{
    
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
 
 }
