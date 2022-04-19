@@ -1133,5 +1133,40 @@ footer
          font-size: 15px;
          margin: 10px;
      }
+     /*=============CATALOGO===========*/
+     .bannerCatalogo{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Sora', sans-serif;
+        font-size: 40px;
+       
+    }
+    .fondoDesktopCatalogo1{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 980px;
+    }
+   
+    .containerImgCatalogo{
+        width: 400px;
+        height: 200px;
 
+       
+    }
+   
+    .containerImgCatalogo p{
+        font-size: 22px;
+        color: black;
+        
+    }
+    .containerImgCatalogo  button{
+        padding: 2px 50px ;
+    
+    
+    }
+
+    
 }
