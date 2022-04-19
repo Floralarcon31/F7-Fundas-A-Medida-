@@ -228,6 +228,8 @@ nav {
     /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
     height: 120px;
     /*bottom: -25px;  ajustar los valores para mover la imagen */
+    object-fit: cover;
+    width: 100%;
 }
 .linkCatalogo{
     margin-left: 8px;
@@ -270,10 +272,10 @@ nav {
 }
 /*=============FUNDAS MODELO LISO===========*/
 
-.catalogo-modeloLiso {
+
+.texto-catalogo-modeloLiso {
     padding: 1rem;
 }
-
 .texto-catalogo-modeloLiso p {
     margin: 0;
 }
@@ -775,6 +777,7 @@ nav {
 .section{
     padding: 3rem 0;
 }
+
 .footer{
     background-color: #1d2d5b;
 }
@@ -1023,7 +1026,7 @@ footer
         font-size: 40px;
         position: absolute;
         top: 45%;
-        left: 30%;
+        left: 35%;
         transform: translate(-17%, -30%);  
     }
 
@@ -1153,10 +1156,8 @@ footer
     .containerImgCatalogo{
         width: 400px;
         height: 200px;
-
-       
     }
-   
+
     .containerImgCatalogo p{
         font-size: 22px;
         color: black;
@@ -1169,4 +1170,310 @@ footer
     }
 
     
+     /*=============FUNDAS A MEDIDA===========*/
+    .imgBannerFundas{
+        width: 750px;
+        height: 210px;
+        display: block;
+        margin: auto;
+    }
+    .titleH1-fundasMedida{
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        transform: translate(-17%, -30%); 
+    }
+    .fondoDesktopFudasAmedida{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 1210px;
+    }
+    .fundaAmedidaGrid{
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+       margin-left: 0px;
+       justify-content: space-around;
+     }
+    .linkCatalogo{
+       display: none;
+    }
+
+    .cardImgFundas{
+        height: 230px;
+ 
+    }
+    .ImgDibujo1{
+        position: relative;
+        text-align: center;
+      }
+      
+      .ImgDibujo {
+        position: absolute;
+        justify-content:center;
+        margin-left: 60px;
+      }
+      /*=============FUNDAS A MEDIDA - variedades LISA===========*/
+      
+        .icono-agrandar-img{
+            width: 1.5rem;
+            position: absolute;
+            right: 10px;
+            top: 35px;
+        }
+
+      .fondoDesktopFundas{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 550px;
+      }
+      .fondoDesktopVariedadesGrid{
+        display: grid;
+        grid-template-columns: 405px 345px ;
+        margin-left: 0px;
+      }
+      .texto-catalogo-modeloLiso{
+        margin-left: 20px;
+    
+    }
+
+    .texto-catalogo-modeloLiso p {
+        margin: 0;
+    }
+
+    .carrusel-modeloLiso {
+        padding: 0 2rem;
+    }
+
+    .img-carrusel-modeloLiso {
+        height: 420px;
+        margin-top: 25px;
+    }
+
+    .container-text-modeloLiso {
+        padding: .7rem 0rem;
+        font-size: 13px;
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    .container-text-modeloLiso h1 {
+        font-size: 19px;
+    }
+       /*=============FUNDAS A MEDIDA - variedades ACOLCHONADO===========*/
+    
+.texto-catalogo-modeloAcolchonado {
+    margin-left: 20px;
+}
+
+.carrusel-modeloAcolchonado {
+    padding: 0 2rem;
+}
+
+.img-carrusel-modeloAcolchonado {
+    height: 420px;
+    margin-top: 17px;
+}
+
+.container-text-modeloAcolchonado {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-text-modeloAcolchonado h1 {
+    font-size: 19px;
+}
+
+/*=============FUNDAS A MEDIDA - variedades DIAMANTE===========*/
+
+.texto-catalogo-modeloDiamante {
+    margin-left: 20px;
+}
+
+.fondoDesktopFundas .text{
+    margin-top: 30px; 
+}
+
+.carrusel-modeloDiamante {
+    padding: 0 2rem;
+}
+
+.img-carrusel-modeloDiamante {
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-modeloDiamante {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.container-text-modeloDiamante h1 {
+    font-size: 19px;
+}
+
+/*=============CUBREVOLANTES===========*/
+
+.titleH1-cubrevolantes {
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-17%, -30%); 
+    
+}
+.fondoDesktopCubreVol{
+    background: #eeebeb;
+    width: 750px;
+    display: block;
+    margin: auto;
+    height: 825px;
+}
+.cubreVolGrid{
+    display: grid;
+    grid-template-columns:345px 345px;
+   margin-left: 0px;
+   justify-content: space-around;
+}
+
+
+/*=============CUBREVOLANTES MODELO MICRO=============*/
+
+.texto-catalogo-cubrevolantesMicro {
+    margin-left: 20px;
+}
+
+.fondoDesktopCubreVol .text {
+    margin-top: 30px; 
+}
+
+
+.carrusel-cubrevolantesMicro {
+    padding: 0 2rem;
+}
+
+.img-carrusel-cubrevolantesMicro {
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-cubrevolantesMicro {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.container-text-cubrevolantesMicro h1 {
+    font-size: 19px;
+}
+
+/*=============CUBREVOLANTES MODELO MIXTO=============*/
+
+.texto-catalogo-cubrevolantesMixto{
+    padding: 20px;
+}
+
+.texto-catalogo-cubrevolantesMixto {
+    margin: 0; 
+}
+
+.carrusel-cubrevolantesMixto{
+    padding: 0 2rem;
+}
+
+.img-carrusel-cubrevolantesMixto{
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-cubrevolantesMixto{
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-text-cubrevolantesMixto h1 {
+    font-size: 19px;
+}
+
+/*============ACCESORIOS===========*/
+.titleH1-accesorios{
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-17%, -30%); 
+}
+.fondoDesktopAccesorios{
+    background: #eeebeb;
+    width: 750px;
+    display: block;
+    margin: auto;
+    height: 810px;
+}
+
+.main-accesorios {
+    padding: 2rem 1rem;
+}
+
+.card-accesorios{
+    margin: 2rem 0;
+}
+
+.title-card-accesorios{ 
+    font-size: 20px;
+}
+
+.anchor-card-accesorios {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-card-accesorios:focus {
+    color: black;
+}
+/*============ACCESORIOS - ANTENAS / ESCOBILLAS / FUNDAStermoformadas===========*/
+
+.texto-catalogo-accesorios-tipos{
+    padding: 1rem;
+}
+.fondoDesktopCubreVol .text{
+    margin-top: 30px; 
+    margin-left: 15px;
+}
+
+.texto-catalogo-accesorios-tipos p {
+    margin: 0; 
+}
+
+.carrusel-accesorios-tipos{
+    padding: 0 2rem;
+}
+
+.img-carrusel-accesorios-tipos{
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-accesorios-tipos{
+    padding: .7rem 0rem;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.subTextAccesorios{
+    margin-top: 0px;
+}
+.container-text-accesorios-tipos h1 {
+    font-size: 19px;
+}
+
 }
