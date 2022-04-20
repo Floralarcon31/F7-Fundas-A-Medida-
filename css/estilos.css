@@ -835,8 +835,8 @@ footer ul{
 .botonWhatsapp {
     font-size: 3rem;
     position: fixed;
-    bottom: 12%;
-    right: 10px;
+    bottom: 10%;
+    right: 20px;
 }
 
 /*MODAL FOOTER*/
