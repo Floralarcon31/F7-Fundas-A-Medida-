@@ -1262,6 +1262,7 @@ footer
     }
     .container-text-modeloLiso h1 {
         font-size: 19px;
+        font-weight: bold
     }
        /*=============FUNDAS A MEDIDA - variedades ACOLCHONADO===========*/
     
@@ -1286,6 +1287,7 @@ footer
 }
 .container-text-modeloAcolchonado h1 {
     font-size: 19px;
+    font-weight: bold
 }
 
 /*=============FUNDAS A MEDIDA - variedades DIAMANTE===========*/
@@ -1316,6 +1318,7 @@ footer
 
 .container-text-modeloDiamante h1 {
     font-size: 19px;
+    font-weight: bold
 }
 
 /*=============CUBREVOLANTES===========*/
@@ -1372,6 +1375,7 @@ footer
 
 .container-text-cubrevolantesMicro h1 {
     font-size: 19px;
+    font-weight: bold
 }
 
 /*=============CUBREVOLANTES MODELO MIXTO=============*/
@@ -1401,6 +1405,7 @@ footer
 }
 .container-text-cubrevolantesMixto h1 {
     font-size: 19px;
+    font-weight: bold
 }
 
 /*============ACCESORIOS===========*/
@@ -1474,6 +1479,7 @@ footer
 }
 .container-text-accesorios-tipos h1 {
     font-size: 19px;
+    font-weight: bold
 }
 
 }
