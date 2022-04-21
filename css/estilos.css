@@ -137,7 +137,7 @@ nav {
 }
 
 .img-card-home {
-    padding: 1.2rem;
+    padding: 1rem;
     min-height: 220px;
 }
 
@@ -535,8 +535,7 @@ nav {
 }
 
 .imagen-modal {
-    width: 100%;
-    height: 100%;
+    height: 88vh;
 }
 
 /*=============NUESTRA EMPRESA===========*/
@@ -1514,7 +1513,6 @@ footer
     .botonWhatsapp {
         font-size: 3.2rem;
         right: 200px;
-        
-}
+    }
 }
 
