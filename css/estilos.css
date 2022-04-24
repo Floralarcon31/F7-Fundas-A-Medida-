@@ -114,11 +114,11 @@ nav {
 .productosDestacadosDIV{
     margin-left: 60px;
 }
+
 .cardsProductos {
-    height: 330px;
-    width: 290px;
+    height: 520px;
+    width: 300px;
     margin-top: 15px;
-   /* margin-left: 13%;*/
 }
 
 .btn-productoDestacado{
@@ -133,12 +133,12 @@ nav {
     padding: 3px 20px;
     font-size: 13px;
     position: relative;
-    margin-top: 0px;
+    margin: 10px;
 }
 
 .img-card-home {
-    padding: 1rem;
-    min-height: 220px;
+    padding: 0.5rem;
+    height: 400px;
 }
 
 .text-carrusel-opiniones {
@@ -216,8 +216,7 @@ nav {
     font-family: 'Sora', sans-serif;
     font-size: 20px;
     background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
-     /*borde negro*/
-     -webkit-text-stroke: 0.3px black;
+    -webkit-text-stroke: 0.3px black;
     background-size: 300%;
     -webkit-background-clip: text;
             background-clip: text;
@@ -236,8 +235,7 @@ nav {
     margin-bottom: 20px;
 }
 .cardImgFundas{
-   height: 350px;
-    
+    height: 430px;
 }
 .main-fundasMedida {
     padding: 2rem 1rem;
@@ -246,9 +244,7 @@ nav {
     margin: 8px;
 }
 .card-fundasMedida {
-
     margin: 1.5rem 0;
-   
 }
 
 .title-card-fundasMedida { 
